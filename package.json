@@ -1,0 +1,16 @@
+{
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --minify"
+  },
+  "author": "Arian Makiabadi",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
